@@ -55,16 +55,18 @@
   // comments - shortcut Command + /
   ```
 
-- variables
+### Data types
 
-  ```
+1. **variables**
 
-  ```
+```
 
-  - can contain digits, letters, underscore, must start with letter, $ or \_
-  - no keyword, cannot start with a number
-  - Case sensitive
-  - camelCase or underscore
+```
+
+- can contain digits, letters, underscore, must start with letter, $ or \_
+- no keyword, cannot start with a number
+- Case sensitive
+- camelCase or underscore
 
 - **var** **let** and **const**
 
@@ -85,7 +87,50 @@
 
   - Const: once declared, can't change its value + can't declared without an initial value.
 
-- Strings
+    
 
-  - String concatenation 
-    - backsticks
+2. **Strings**
+
+- String concatenation 
+
+  ```javascript
+  const street = "Georg Brandes Plads 4";
+  const country = "Denmark";
+  
+  const fullMailingAddress = street + ", " + country;
+  ```
+
+
+
+**3. Numbers**
+
+- loosely types: don't declare type
+
+- ```javascript
+  const number = 34;
+  const number_string = '34';
+  
+  let pants = 2.466;
+  pants = 'are great'
+  console.log();
+  ```
+
+  there's no different between declare a string or an integer or a decimal
+
+  In the **console**, the integers or the decimals will be in blue, and the strinng will be in black.
+
+- += -= /= *= ++ -- % operations
+
+  
+
+**4. implicit type conversion**
+
+- if we try to do operations on 2 variables:
+
+  - string + number => string
+  - string + string  => string 
+  - "number" + "number" => string 
+  - "number" - "number" => number
+
+  [note]: + is an exception, other math operations will first try to convert the type of var to finish the math operation.
+

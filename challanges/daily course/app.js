@@ -1,9 +1,6 @@
-// const name = "john";
-// const lastName = "shakeanndbake";
-// let fullName;
+const number = 34;
+const number_string = "34";
 
-// console.log("hello there your full name is : " + name + lastName);
-
-const website = "google";
-const url = "https://www." + website + ".com";
-console.log(url);
+let pants = 2.466;
+pants = "are great";
+console.log(pants);

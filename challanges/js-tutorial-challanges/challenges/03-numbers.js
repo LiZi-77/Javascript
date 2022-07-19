@@ -16,18 +16,22 @@
 
 */
 
-const score1 = 98;
-const score2 = 75;
-const score3 = 45;
+const score1 = 100;
+const score2 = 3;
+const score3 = 40;
 
-const totalScore = score1 + score2 + score3;
-const avgScore = totalScore / 3;
-// console.log(totalScore, avgScore);
+const totle_score = score1 + score2 + score3;
+const avr_score = totle_score / 3;
+
+console.log(score1);
+console.log(score2);
+console.log(score3);
+console.log(totle_score);
+console.log(avr_score);
 
 const plates = 20;
 const people = 7;
-let remainingPlates = 20 % 7;
-remainingPlates++;
-
-const message = 'There are ' + remainingPlates + ' plates available';
+let remaining = plates % people;
+remaining++;
+const message = "There are " + remaining + " plates available";
 console.log(message);
