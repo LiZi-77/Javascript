@@ -134,3 +134,37 @@
 
   [note]: + is an exception, other math operations will first try to convert the type of var to finish the math operation.
 
+  ​		尽管html中form表项 type=number, 但是html返回给js的数据是**string**类型
+
+
+
+**5.Data Type**
+
+- 7 data types in total
+- Primitive: <u>**String**</u>, <u>**Number**</u>, **Boolean**, <u>**Null**</u>(<u>bug, typeof(null) = object</u> ), <u>**Undefined**</u>(<u>some var not defined</u>), **Symbol**(ES6)
+- **Object**: Arrays, Functions, Objects
+
+- Typeof : operator 
+
+
+
+**6.Arrays, Functions and Objects**
+
+- **<u>Arrays</u>**: [], 0 index based, we can also store functions and objects inside an array
+
+  ```javascript
+  // store
+  const friends = ['john', 'peter', 'bob', 'susy', 45, undefined, null];
+  
+  //access
+  console.log(friends[1]);
+  
+  //change / update
+  friends[4] = 'anna';
+  
+  ```
+
+  
+
+
+
