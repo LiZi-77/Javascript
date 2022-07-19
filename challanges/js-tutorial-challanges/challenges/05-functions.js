@@ -29,6 +29,7 @@ const exp = function (subTotal, tax) {
 };
 
 console.log(exp(200, 20));
+
 // const calculateTotal = function random(subTotal, tax) {
 //   // const total = subTotal + tax;
 //   // return total;
