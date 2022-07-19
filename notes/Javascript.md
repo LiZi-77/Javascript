@@ -161,10 +161,67 @@
   
   //change / update
   friends[4] = 'anna';
+  ```
+
+- **<u>Functions</u>**: declare + invoke
+
+  function reduce redundancy
+
+  ```javascript
+  // Declare : function keyword
+  function hello(){
+      console.log('Hello There Bob');
+      console.log('Hello There John');
+      console.log('Hello There Susy');
+  }
   
+  // Invoke:
+  hello()
+  ```
+
+  ```javascript
+  // parameters + arguments
+  
+  // params
+  function greet(name){
+      console.log('Hello there ' + name);
+  }
+  hello('Anna');
+  ```
+
+  ```javascript
+  // return
+  // default undefined, shortcuts, ignores after
+  // 1 inch 2.54cm take inches and then return centimeters
+  function calculate(value){
+    return value * 2.54;
+  }
+  ```
+
+  ```javascript
+  // another way to define a function - expressions
+  // create a variable, assign to FUNCTION(not value), use var
+  // diff - hoisting, use - arrow func, libraries
+  
+  
+  // funnction definition/declaration 
+  function addValues(num1, num2) {
+    return num1 + num2;
+  }
+  
+  const firstValue = addValues(3,4);
+  connst secondValue = addValues(12, 34);
+  
+  // functionn expression: if there's still inner function name, that function will be invalid
+  const add = function (num1, num2) {
+    return num1, num2;
+  }
+  
+  //diff: how to invoke
+  const thirdValue = add(5,6);
+  
+  // arrow functions -> expression
+  const multiply = (num1, num2) => num1 * num2;
   ```
 
   
-
-
-
