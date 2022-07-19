@@ -1,3 +1,15 @@
+## Tasks
+
+- [x] Variables #1
+- [x] Concatenate Strings #2
+- [x] Numbers #3
+- [x] Arrays #4
+- [x] Functions #5
+- [ ] Objects #6
+- [ ] Conditional Statements #7
+- [ ] Strings #8
+- [ ] Array Methods #9
+
 ## Variables #1
 
 1. create "firstName" and "last_name" variables
