@@ -1,13 +1,11 @@
 ## Javascript
 
-
-
 - how to add js in our code?
 
   - inline Javascript
 
     ```html
-    <button onclick="alert('hello world')"> click me <\button>
+    <button onclick="alert('hello world')">click me <\button></button>
     ```
 
     what is downside this line
@@ -19,13 +17,13 @@
     ```html
     btn.btn*7{random button}
     <button class="btn">random button</button>
-    
+
     <script>
-        document.querySelectorAll('.btn').forEach((item) => {
-            item.addEventListener('click',() =>{
-                alert('this is awesome')
-            })
-        })
+      document.querySelectorAll(".btn").forEach((item) => {
+        item.addEventListener("click", () => {
+          alert("this is awesome");
+        });
+      });
     </script>
     ```
 
@@ -35,20 +33,18 @@
 
   - External
 
-    - 尽管script中间没有内容也要全写两个括号
+    - 尽管 script 中间没有内容也要全写两个括号
 
     - ```html
-      <script src="./app.js">
-      
-      </script>
+      <script src="./app.js"></script>
       ```
 
 - methods
 
   ```javascript
   document.write("hello world");
-  alert('hello world');
-  console.log('hello world');
+  alert("hello world");
+  console.log("hello world");
   ```
 
 - statement and comments
@@ -62,10 +58,10 @@
 - variables
 
   ```
-  
+
   ```
 
-  - can contain digits, letters, underscore, must start with letter, $ or _
+  - can contain digits, letters, underscore, must start with letter, $ or \_
   - no keyword, cannot start with a number
   - Case sensitive
   - camelCase or underscore
@@ -89,8 +85,7 @@
 
   - Const: once declared, can't change its value + can't declared without an initial value.
 
-  - 
+- Strings
 
-  
-
-  
+  - String concatenation 
+    - backsticks

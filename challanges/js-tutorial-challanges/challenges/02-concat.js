@@ -10,8 +10,11 @@
 
 */
 
-const street = 'main street';
-const country = 'USA';
+let street;
+let country;
 
-const fullMailingAddress = street + '' + country;
+street = "Georg Brandes Plads 4";
+country = "Denmark";
+
+const fullMailingAddress = street + ", " + country;
 console.log(fullMailingAddress);
