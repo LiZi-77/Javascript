@@ -1,19 +1,18 @@
-const person = {
-  name: "john",
-  lastName: "peters",
-  age: 40,
-  education: false,
-  married: true,
-  siblings: ["anna", "susan", "peter"],
-  // method
-  greeting() {
-    console.log("hello my name is JOGH");
-  },
-};
+// dice values : 1-6
 
-console.log(person.name);
-console.log(person.siblings[2]);
-person.greeting();
+const dice = 1;
 
-const age = person.age;
-person.name = "bob";
+switch (dice) {
+  case 1:
+    console.log("you got one.");
+    break;
+  case 2:
+    console.log("you got 2.");
+    break;
+  case 3:
+    console.log("you got 3.");
+    break;
+  default:
+    console.log("you got 6");
+    break;
+}

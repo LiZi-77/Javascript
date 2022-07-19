@@ -55,13 +55,9 @@
   // comments - shortcut Command + /
   ```
 
-### Data types
+### Basics
 
 1. **variables**
-
-```
-
-```
 
 - can contain digits, letters, underscore, must start with letter, $ or \_
 - no keyword, cannot start with a number
@@ -259,3 +255,60 @@
   3. Method: greeting() {
 
      },
+
+
+
+**<u>6.conditional statements</u>**
+
+```
+if () {
+...
+}
+else if () {
+...
+} // 后面没有分号
+```
+
+1. comparison operations: >, <, >=, <=, ==, ===, !=, !==
+
+2. equality
+
+   ```javascript
+   // == checks only values
+   // === checks also type
+   const num1 = 6;
+   const num2 = '6';
+   
+   const value = num1 == num2; // true inexplicit type conversionn
+   const value = num1 === num2; // false
+   ```
+
+
+
+**<u>7. Logical Operators</u>**
+
+```javascript
+//( || - OR), (&&-AND), !
+```
+
+
+
+**<u>8. switch statements</u>**
+
+```javascript
+// Switch
+// dice values: 1-6
+
+// way1: all if
+
+// way2: else if
+
+// way3: switch
+switch (dice) {
+  case 1:
+    console.log('you got one');
+  case 2:
+    
+}
+```
+
