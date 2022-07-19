@@ -13,16 +13,17 @@
 */
 
 const car = {
-  make: 'Dodge',
-  model: 'Challenger',
-  year: 1970,
-  colors: ['black', 'red'],
-  hybrid: false,
-  drive: function () {
-    console.log('driving...');
+  make: "Tesla",
+  model: "model_X",
+  year: "2020",
+  colors: ["red", "white", "grey", "black"],
+  hybrid: true,
+  drive() {
+    console.log("driving...");
   },
+
   stop() {
-    console.log('stopped!!!');
+    console.log("stopped");
   },
 };
 
@@ -30,3 +31,22 @@ console.log(car.make);
 console.log(car.colors[0]);
 car.drive();
 car.stop();
+
+// const car = {
+//   make: 'Dodge',
+//   model: 'Challenger',
+//   year: 1970,
+//   colors: ['black', 'red'],
+//   hybrid: false,
+//   drive: function () {
+//     console.log('driving...');
+//   },
+//   stop() {
+//     console.log('stopped!!!');
+//   },
+// };
+
+// console.log(car.make);
+// console.log(car.colors[0]);
+// car.drive();
+// car.stop();

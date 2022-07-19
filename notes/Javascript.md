@@ -224,4 +224,38 @@
   const multiply = (num1, num2) => num1 * num2;
   ```
 
+- **<u>Objects</u>**
+
+  objects in JS are collections of properties/keys
+
+  ```javascript
+  // Objects - key/value pairs methods
+  // dot notation
   
+  // eg. car is an object and it has some properties
+  const person = {
+    	name:'john',
+    	lastName:'peters',
+    	age:40,
+      education:false,
+      married:true,
+      siblings:['anna','susan','peter'],
+        // method
+      /*
+      greeting: function (){
+      console.log('hello my name is JOHN.');
+      },
+      */
+      greeting(){
+        console.log('hello my name is JOGH');
+      },
+  };
+  ```
+
+  1. Const object_name **=** {};
+
+  2. Field_name**:** field_value**,**
+
+  3. Method: greeting() {
+
+     },

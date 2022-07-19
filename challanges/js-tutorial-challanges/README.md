@@ -5,7 +5,7 @@
 - [x] Numbers #3
 - [x] Arrays #4
 - [x] Functions #5
-- [ ] Objects #6
+- [x] Objects #6
 - [ ] Conditional Statements #7
 - [ ] Strings #8
 - [ ] Array Methods #9
