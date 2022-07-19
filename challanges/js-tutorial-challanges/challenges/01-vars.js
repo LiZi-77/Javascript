@@ -9,10 +9,12 @@
 
 */
 
-const firstName = "john";
-const last_name = "smilga";
+const firstName = "Ziqian";
+const last_name = "Li";
 
 let address = "main street";
 address = "first street";
 
-console.log(firstName, last_name, address);
+console.log(firstName);
+console.log(last_name);
+console.log(address);
