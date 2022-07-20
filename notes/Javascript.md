@@ -313,13 +313,14 @@ while () {
 
 
 // do while loop
+// at least once
 do{
    ... ;
 } while()
 
 
 // for loop
-for () {
+for (start var; end condition; iteration) {
    ... ;
 }
 ```
