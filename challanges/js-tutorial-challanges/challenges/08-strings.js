@@ -17,9 +17,20 @@
 // }
 // console.log(fullName('john', 'smith'));
 
-function fullName({ firstName, lastName }) {
-  const fullName = `${firstName} ${lastName}`;
-  return fullName.toUpperCase();
+function fullName(firstName, lastName) {
+  s = firstName + lastName;
+  return s.toUpperCase();
 }
 
-console.log(fullName({ lastName: 'jordan', firstName: 'peter' }));
+let result = fullName("peter", "Jordan");
+console.log(result);
+
+result = fullName("Jordan", "Peter");
+console.log(result);
+
+// function fullName({ firstName, lastName }) {
+//   const fullName = `${firstName} ${lastName}`;
+//   return fullName.toUpperCase();
+// }
+
+// console.log(fullName({ lastName: 'jordan', firstName: 'peter' }));
