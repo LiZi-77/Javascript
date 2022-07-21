@@ -27,3 +27,31 @@ console.log(text.slice(-3));    //return last n substring
   
 
 ##### Template Literals - ES6+
+
+```javascript
+// Backtick characters `` way more powerful than ''
+// interpolation ${}: inside is either an expression or a var which will return an expr
+
+const name = "john";
+const age = 25;
+const sentence = "Hey it's " + name + " and he is " + age + " years old.";
+
+const value = `Hey it's ${name} and he is ${age} years old.`;
+console.log(value);
+console.log(sentence);
+
+
+```
+
+##### Array properties and methods
+
+```javascript
+const names =  ["john", "bobo", "barry", "olga", "ben", 2];
+const lastNames = ['pepper', 'onion', 'banana'];
+
+
+console.log(names.concat(lastNames));
+console.log(allNames.reverse());
+```
+
+
