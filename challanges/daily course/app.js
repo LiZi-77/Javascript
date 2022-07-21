@@ -1,18 +1,14 @@
-// dice values : 1-6
+let text = " Peter Jordan";
 
-const dice = 1;
+const person = {
+  name: "peter", //property
+  greeting() {
+    //method
+    console.log("hey, I'm Peter");
+  },
+};
 
-switch (dice) {
-  case 1:
-    console.log("you got one.");
-    break;
-  case 2:
-    console.log("you got 2.");
-    break;
-  case 3:
-    console.log("you got 3.");
-    break;
-  default:
-    console.log("you got 6");
-    break;
-}
+console.log(person);
+
+console.log(person.name);
+person.greeting();
