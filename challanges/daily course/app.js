@@ -1,17 +1,10 @@
-const names = ["john", "bobo", "barry", "olga", "ben", 2];
-const lastNames = ["pepper", "onion", "banana"];
-const allNames = names.concat(lastNames);
+// unary operator - typeof
+let text = "some text";
+console.log(typeof text);
 
-console.log(names.concat(lastNames));
-console.log(allNames.reverse());
+//binary operator - assignment
+let number = 3;
+let number2 = 2 + 5;
 
-// unshift
-allNames.unshift("susy");
-allNames.unshift("anna");
-console.log(allNames);
-
-// shift
-allNames.shift();
-allNames.shift();
-allNames.shift();
-console.log(allNames);
+//ternary operator
+//condition ? (runs if true) : (runs if false)
